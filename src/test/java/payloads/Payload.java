@@ -58,7 +58,7 @@ public class Payload {
 		String imageUrl="https://i.pravatar.cc/100";
 		String category=categories[random.nextInt(categories.length)];
 		
-		new Product(name, price, description, imageUrl, category);
+		//new Product(name, price, description, imageUrl, category);
 		return new Product(name, price, description, imageUrl, category);
 	}
 	
@@ -74,11 +74,8 @@ public class Payload {
 		
 		//location
 		String lat=faker.address().latitude();
-		String lng=faker.address().longitude();
-		
+		String lng=faker.address().longitude();		
 		Geolocation location=new Geolocation(lat,lng);
-		
-		
 		//Address
 		
 		String city=faker.address().city();
