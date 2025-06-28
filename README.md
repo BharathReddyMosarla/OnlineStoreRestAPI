@@ -10,14 +10,14 @@ It includes functional coverage of the following core modules:
 * **Users**
 * **Login**
 
-The automation suite uses a combination of **REST Assured**, **TestNG**, **Selenium**, and reporting tools to ensure comprehensive validation.
+The automation suite uses a combination of **REST Assured**, **TestNG**, and reporting tools to ensure comprehensive validation.
 
 ---
 
 ## 🛠️ Technology Stack
 
 * **Language**: Java
-* **Automation Tools**: REST Assured, Selenium WebDriver
+* **Automation Tools**: REST Assured
 * **Testing Framework**: TestNG
 * **Build Tool**: Maven
 * **Reports**: Allure Reports, Extent Reports
